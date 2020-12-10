@@ -41,8 +41,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -50,8 +50,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView"
@@ -59,8 +59,8 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toTopOf="@+id/imageView"
@@ -68,88 +68,88 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_dtac" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_ptt" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_ais" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_pt" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_sephora" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_prudential" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_amway" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_finn" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_minor" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:srcCompat="@drawable/ic_krungsri" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerInside"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="@+id/imageView"

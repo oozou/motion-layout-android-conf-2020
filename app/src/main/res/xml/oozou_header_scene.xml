@@ -91,12 +91,13 @@
         <Constraint
             android:layout_height="60dp"
             android:layout_width="475dp"
-            motion:layout_constraintTop_toBottomOf="@+id/view2"
+            motion:layout_constraintTop_toBottomOf="@id/topBackgorund"
             android:id="@+id/bottomBackground"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="0dp"
             android:rotation="-5.0"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="parent" />
+            motion:layout_constraintStart_toStartOf="parent"
+            android:visibility="visible" />
         <Constraint
             android:id="@+id/underline"
             motion:layout_constraintEnd_toEndOf="parent"
@@ -206,9 +207,9 @@
             android:id="@+id/bottomBackground"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            motion:layout_constraintTop_toBottomOf="@id/view2"
+            motion:layout_constraintTop_toBottomOf="@id/topBackgorund"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            android:alpha="0.0" />
+            android:visibility="invisible" />
     </ConstraintSet>
 </MotionScene>
