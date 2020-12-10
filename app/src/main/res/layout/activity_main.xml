@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/secondary"
     android:clipToPadding="true"
-    app:layoutDescription="@xml/activity_main_scene"
+    app:layoutDescription="@xml/oozou_header_scene"
     tools:context=".MainActivity">
 
     <View

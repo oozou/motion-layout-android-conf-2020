@@ -129,13 +129,12 @@
             android:id="@+id/imageView2" />
         <Constraint
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            motion:layout_constraintTop_toTopOf="parent"
             android:layout_width="100dp"
-            motion:layout_constraintStart_toEndOf="@+id/bigLogo"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
             android:id="@+id/textLogo2"
-            android:alpha="1.0" />
+            android:alpha="1.0"
+            motion:layout_constraintStart_toEndOf="@+id/bigLogo"
+            motion:layout_constraintTop_toTopOf="@+id/bigLogo"
+            motion:layout_constraintBottom_toBottomOf="@+id/bigLogo"
+            android:layout_marginStart="4dp" />
     </ConstraintSet>
 </MotionScene>
