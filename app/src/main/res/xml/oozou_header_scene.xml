@@ -69,10 +69,11 @@
             android:id="@+id/textLogo"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            motion:layout_constraintTop_toTopOf="@+id/bigLogo"
             motion:layout_constraintStart_toEndOf="@+id/bigLogo"
-            motion:layout_constraintTop_toTopOf="parent" ></Constraint>
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/bigLogo"></Constraint>
         <Constraint
             android:id="@+id/tvTitle"
             android:layout_width="0dp"
