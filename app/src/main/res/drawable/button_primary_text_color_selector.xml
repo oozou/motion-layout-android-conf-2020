@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active / Default -->
+    <item android:color="@color/white" android:state_enabled="true" android:state_pressed="false" android:state_selected="false" />
+    <!-- Pressed -->
+    <item android:color="@color/white" android:state_enabled="true" android:state_pressed="true" />
+    <!-- In Active / Disable -->
+    <item android:color="@color/secondary" android:state_enabled="false" android:state_pressed="false" />
+    <!-- Selected -->
+    <item android:color="@color/white" android:state_enabled="true" android:state_pressed="false" android:state_selected="true" />
+</selector>

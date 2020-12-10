@@ -9,9 +9,12 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Button.Primary.Large"
         android:layout_width="0dp"
         android:layout_height="56dp"
+        android:fontFamily="sans-serif"
         android:text="We are hiring"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/flexboxLayout"
         app:layout_constraintStart_toStartOf="@+id/flexboxLayout"
