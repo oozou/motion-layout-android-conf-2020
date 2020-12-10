@@ -6,7 +6,20 @@
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
-        <KeyFrameSet></KeyFrameSet>
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:motionTarget="@+id/bigLogo"
+                motion:framePosition="60"
+                android:scaleX="0.2"
+                android:scaleY="0.2"
+                android:translationX="200dp"
+                android:translationY="-60dp" />
+            <KeyAttribute
+                motion:motionTarget="@+id/bigLogo"
+                motion:framePosition="20"
+                android:translationX="50dp"
+                android:translationY="-80dp" />
+        </KeyFrameSet>
         <OnSwipe motion:touchAnchorId="@+id/layout_content" />
     </Transition>
 
@@ -30,7 +43,9 @@
             motion:layout_editor_absoluteX="16dp"
             android:layout_width="100dp"
             android:id="@+id/textLogo2"
-            android:alpha="0.0" />
+            android:alpha="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/textLogo"
+            motion:layout_constraintTop_toTopOf="@+id/textLogo" />
         <Constraint
             android:id="@+id/textLogo"
             android:layout_width="100dp"

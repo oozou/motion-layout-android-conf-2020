@@ -109,7 +109,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_text_logo_primary"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="46dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
