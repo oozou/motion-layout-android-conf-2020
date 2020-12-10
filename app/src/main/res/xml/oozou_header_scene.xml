@@ -10,15 +10,26 @@
             <KeyAttribute
                 motion:motionTarget="@+id/bigLogo"
                 motion:framePosition="60"
-                android:scaleX="0.2"
-                android:scaleY="0.2"
-                android:translationX="200dp"
-                android:translationY="-60dp" />
+                android:scaleX="0.1"
+                android:scaleY="0.1"
+                android:translationY="-135dp" />
             <KeyAttribute
                 motion:motionTarget="@+id/bigLogo"
                 motion:framePosition="20"
-                android:translationX="50dp"
-                android:translationY="-80dp" />
+                android:translationX="80dp"
+                android:translationY="-200dp" />
+            <KeyAttribute
+                motion:motionTarget="@+id/bigLogo"
+                motion:framePosition="40"
+                android:translationX="140dp"
+                android:translationY="-190dp"
+                android:scaleX="0.1"
+                android:scaleY="0.1" />
+            <KeyAttribute
+                motion:motionTarget="@+id/bigLogo"
+                motion:framePosition="80"
+                android:scaleX="0.1"
+                android:scaleY="0.1" />
         </KeyFrameSet>
         <OnSwipe motion:touchAnchorId="@+id/layout_content" />
     </Transition>
@@ -41,19 +52,41 @@
             motion:layout_editor_absoluteY="16dp"
             android:layout_height="wrap_content"
             motion:layout_editor_absoluteX="16dp"
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:id="@+id/textLogo2"
             android:alpha="0.0"
             motion:layout_constraintStart_toStartOf="@+id/textLogo"
             motion:layout_constraintTop_toTopOf="@+id/textLogo" />
         <Constraint
             android:id="@+id/textLogo"
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="24dp" />
+        <Constraint
+            android:layout_marginEnd="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textLogo"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp"
+            android:id="@+id/tvTitle" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            motion:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            android:layout_marginStart="32dp"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp"
+            android:id="@+id/tvDescription" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">

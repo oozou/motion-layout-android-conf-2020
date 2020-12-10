@@ -26,7 +26,7 @@
         android:layout_height="450dp"
         app:layout_constraintEnd_toEndOf="@id/view3"
         app:layout_constraintTop_toTopOf="@id/view7"
-        app:srcCompat="@drawable/ic_brand_alt_7457e1f6c29ebe10dfa84eb2520da362f804797bcfc539d0d994d1b244201922" />
+        app:srcCompat="@drawable/ic_oozou_logo" />
 
     <TextView
         android:id="@+id/tvTitle"
