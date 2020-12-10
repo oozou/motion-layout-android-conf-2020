@@ -37,13 +37,14 @@
     <ConstraintSet android:id="@+id/start">
         <Constraint
             android:id="@+id/topBackgorund"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_width="576dp"
+            android:layout_height="603dp"
             motion:layout_constraintBottom_toBottomOf="@+id/view2"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintHorizontal_bias="0.0"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent">
+            motion:layout_constraintTop_toTopOf="parent"
+            android:rotation="-5.0"
+            motion:layout_constraintVertical_bias="0.853">
             <CustomAttribute
                 motion:attributeName="BackgroundColor"
                 motion:customColorValue="@color/primary" />
@@ -87,6 +88,29 @@
             motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="24dp"
             android:id="@+id/tvDescription" />
+        <Constraint
+            android:layout_height="60dp"
+            android:layout_width="475dp"
+            motion:layout_constraintTop_toBottomOf="@+id/view2"
+            android:id="@+id/bottomBackground"
+            android:layout_marginTop="24dp"
+            android:rotation="-5.0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/underline"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            motion:layout_constraintTop_toBottomOf="@id/topBackgorund"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:alpha="0.0" />
+        <Constraint
+            android:layout_height="779dp"
+            motion:layout_constraintTop_toTopOf="@id/view7"
+            motion:layout_constraintEnd_toEndOf="@id/view3"
+            android:layout_width="1000dp"
+            android:id="@+id/bigLogo" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
@@ -170,5 +194,21 @@
             motion:layout_constraintTop_toTopOf="@+id/bigLogo"
             motion:layout_constraintBottom_toBottomOf="@+id/bigLogo"
             android:layout_marginStart="4dp" />
+        <Constraint
+            android:id="@+id/underline"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            motion:layout_constraintTop_toBottomOf="@id/topBackgorund"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:alpha="1.0" />
+        <Constraint
+            android:id="@+id/bottomBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            motion:layout_constraintTop_toBottomOf="@id/view2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:alpha="0.0" />
     </ConstraintSet>
 </MotionScene>

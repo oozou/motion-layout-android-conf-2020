@@ -19,6 +19,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:id="@+id/underline"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/accent2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBackgorund" />
+
     <ImageView
         android:id="@+id/bigLogo"
         android:layout_width="1000dp"
@@ -86,7 +95,6 @@
         android:id="@+id/view2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvDescription" />
@@ -105,14 +113,14 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <View
-        android:id="@+id/underline"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="@color/accent2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/topBackgorund" />
+        android:id="@+id/bottomBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/secondary"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp" />
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
