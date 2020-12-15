@@ -9,6 +9,12 @@
         motion:duration="1000"
         motion:motionInterpolator="bounce">
        <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/red_star"
+               motion:framePosition="50"
+               android:scaleX="5"
+               android:scaleY="5"
+               android:rotation="360" />
        </KeyFrameSet>
         <OnSwipe
             motion:touchAnchorId="@+id/red_star"
@@ -30,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintBottom_toBottomOf="parent" />
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:rotation="720" />
     </ConstraintSet>
 </MotionScene>
